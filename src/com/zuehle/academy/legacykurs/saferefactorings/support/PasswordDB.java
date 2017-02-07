@@ -6,7 +6,7 @@ import java.util.Map;
 public class PasswordDB {
 
     private static final Map<String, String> userPasswordMap = new HashMap<String, String>(){{
-        put("knownUser", "password");
+        put("KNOWN_USER", "password");
         put("anotherUser", "otherpassword");
     }};
 
